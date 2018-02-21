@@ -1,7 +1,7 @@
-const React = require('react');
-const ReactDOM = require('react-dom');
-const JoyceBooks = require('./joyceBooks');
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Routes from './routes';
 
 window.onload = ()=>{
-    ReactDOM.render(<JoyceBooks/>, document.getElementById('main'));
+    ReactDOM.render(<Routes/>, document.getElementById('main'));
 };
