@@ -34,6 +34,7 @@ window.addEventListener('load', function(){
 </body>
 </html>
 ```
+6) For watch files webpack main.js bundle.js --watch
 
 
 
