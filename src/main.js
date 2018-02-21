@@ -1,6 +1,7 @@
-window.addEventListener('load', () => {
-   const sayHello = require('./sayHello').sayHello;
-   const hello = sayHello('Browser!');
-   const body = document.getElementsByTagName('body')[0];
-   body.innerHTML = hello;
-});
+const React = require('react');
+const ReactDOM = require('react-dom');
+const JoyceBooks = require('./joyceBooks');
+
+window.onload = ()=>{
+    ReactDOM.render(<JoyceBooks/>, document.getElementById('main'));
+};
